@@ -4,4 +4,4 @@ WORKDIR /task1
 RUN pip install -r requirements.txt 
 EXPOSE 8080
 ENTRYPOINT [ "python" ] 
-CMD [ "demo.py" ] 
+CMD [ "app.py" ] 
